@@ -1,28 +1,65 @@
-.App {
+body {
+  background-image: url('./yellowink.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
   text-align: center;
+  color: rgb(1,2,34);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h2 {
+  font-family: 'Trirong', serif;
+  font-size: 3rem;
+  letter-spacing: 5px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+h4 {
+  font-family: 'Trirong', serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  margin-top: -1rem;
+}
+
+#form {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.input {
+  width: 14rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  margin: .5rem;
+  padding-left: 1rem;
+  font-size: .7rem;
+  font-family: 'Trirong', serif;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  background-color: rgb(1,2,34);
+  border: 1px solid white;
+  text-transform: uppercase;
   color: white;
+  outline: none;
 }
 
-.App-title {
-  font-size: 1.5em;
+#sendButton {
+  background-color: white;
+  border: .5px solid rgb(1,2,34);
+  color: rgb(1,2,34);
+  width: 15.2rem;
+  font-size: .9rem;
+  padding: 0;
+  letter-spacing: 1px;
 }
 
-.App-intro {
-  font-size: large;
+.modal {
+  margin: 0 auto;
+  top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#img {
+  margin-top: -20rem;
+  width: 100%;
 }
